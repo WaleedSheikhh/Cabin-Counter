@@ -1,0 +1,32 @@
+body{
+    margin-top: 100px;
+    background-color: aliceblue;
+    margin-left: 34%;
+}
+#cona {
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    padding: 40px;
+    filter: drop-shadow(2px 2px 4px #4444dd);
+}
+#count-el{
+    font-weight: bolder;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #006EFA;
+}
+button:hover{
+    cursor: pointer;
+}
