@@ -12,10 +12,12 @@ function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
     count = 0
+    countEl.innerHTML = "0"
 }
 
-countEl =  '';
 
 document.getElementById('clear-btn').addEventListener('click', ()=>{
     document.getElementById('save-el').textContent =  '';
+    countEl.innerHTML = "0"
+    saveEl.innerHTML = "Previous entries : "
 })
