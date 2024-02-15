@@ -14,6 +14,8 @@ function save() {
     count = 0
 }
 
+textContent =  '';
+
 document.getElementById('clear-btn').addEventListener('click', ()=>{
     document.getElementById('save-el').textContent =  '';
 })
