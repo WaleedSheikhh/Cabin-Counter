@@ -15,7 +15,6 @@ function save() {
     countEl.innerHTML = "0"
 }
 
-
 document.getElementById('clear-btn').addEventListener('click', ()=>{
     document.getElementById('save-el').textContent =  '';
     countEl.innerHTML = "0"
